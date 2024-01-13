@@ -1,0 +1,15 @@
+[submodule "web"]
+	path = web
+	url = https://github.com/Diary-SPO/web
+[submodule "api"]
+	path = api
+	url = https://github.com/Diary-SPO/api
+[submodule "utils/shared"]
+	path = utils/shared
+	url = https://github.com/Diary-SPO/shared
+[submodule "utils/sql"]
+	path = utils/sql
+	url = https://github.com/Diary-SPO/sql
+[submodule "utils/types"]
+	path = utils/types
+	url = https://github.com/Diary-SPO/types
