@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { ru } from './ru'
+import { en } from './en'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -20,7 +21,8 @@ export default defineConfig({
 
   locales: {
     root: {label: 'Русский', ...ru},
-    en: {label: 'English', ...ru}
+    en: {label: 'English', ...en}
   },
+  lastUpdated: true,
   outDir: '../docs'
 })

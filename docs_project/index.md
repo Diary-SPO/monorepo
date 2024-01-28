@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Быстрый старт
-      link: /pages/fast-start/
+      link: /ru/Быстрый_старт/
     - theme: alt
       text: Для разработчиков
-      link: /pages/api-examples
+      link: /ru/Быстрый_старт/
 
 features:
   - icon: 💻
