@@ -31,13 +31,12 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     return [
         {
             text: 'Быстрый старт',
-            base: '/pages/fast-start/',
             items: [
-                { text: 'Описание проекта', link: '/'},
+                { text: 'Описание проекта', link: '/pages/fast-start/'},
                 { text: 'Запуск проектов', items: [
                     { text: 'Сервер', items: [
-                        { text: 'Введение в установку', link: '/projects/server/' },
-                        { text: 'Загрузка и развёртывание', link: '/projects/server/setting-environment-server'}
+                        { text: 'Введение в установку', link: '/pages/fast-start/projects/server/' },
+                        { text: 'Загрузка и развёртывание', link: '/pages/fast-start/projects/server/setting-environment-server'}
                     ]}
                 ]},
                 { text: 'Runtime API Examples', link: '/pages/api-examples' }
@@ -48,61 +47,60 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
             items: [
               {
                 text: 'Postgresql',
-                base: '/pages/install/postgres/',
                 items: [
                   {
                     text: 'С чего начать',
-                    link: '/'
+                    link: '/pages/install/postgres/'
                   },
                   {
                     text: 'Linux',
                     collapsed: false,
-                    link: '/linux/',
+                    link: '/pages/install/postgres/linux/',
                     items: [
                         {
                             text: 'Поиск обновлений',
-                            link: '/linux/search-updates'
+                            link: '/pages/install/postgres/linux/search-updates'
                         },
                         {
                             text: 'Установка',
-                            link: '/linux/install'
+                            link: '/pages/install/postgres/linux/install'
                         },
                         {
                             text: 'Настройка', collapsed: false, items: [
-                                { text: 'Смена пользователя', link: '/linux/change-user'},
-                                { text: 'Вход в панель управления', link: '/linux/auth-admin-panel'},
-                                { text: 'Добавление администратора', link: '/linux/add-admin-user'},
+                                { text: 'Смена пользователя', link: '/pages/install/postgres/linux/change-user'},
+                                { text: 'Вход в панель управления', link: '/pages/install/postgres/linux/auth-admin-panel'},
+                                { text: 'Добавление администратора', link: '/pages/install/postgres/linux/add-admin-user'},
                             ]
                         },
                         {
                             text: 'Выход',
-                            link: '/linux/exit'
+                            link: '/pages/install/postgres/linux/exit'
                         }
                     ]},
                     {
                         text: 'Termux',
-                        link: '/termux/',
+                        link: '/pages/install/postgres/termux/',
                         collapsed: false,
                         items: [
                             {
                                 text: 'Поиск обновлений',
-                                link: '/termux/search-updates'
+                                link: '/pages/install/postgres/termux/search-updates'
                             },
                             {
                                 text: 'Установка',
-                                link: '/termux/install'
+                                link: '/pages/install/postgres/termux/install'
                             },
                             {
                                 text: 'Создание скелета',
-                                link: '/termux/sceleton'
+                                link: '/pages/install/postgres/termux/sceleton'
                             },
                             {
                                 text: 'Запуск и остановка СУБД',
-                                link: '/termux/run'
+                                link: '/pages/install/postgres/termux/run'
                             },
                             {
                                 text: 'Добавление администратора',
-                                link: '/termux/add-admin-user'
+                                link: '/pages/install/postgres/termux/add-admin-user'
                             }
                         ]
                     }
